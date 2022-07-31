@@ -1,0 +1,6 @@
+rootProject.name = 'admin'
+
+include 'domain'
+include 'admin-app'
+include 'admin-service'
+

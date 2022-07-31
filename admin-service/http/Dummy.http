@@ -1,0 +1,15 @@
+### findByAll
+GET http://localhost:8080/dummy
+
+### findById
+GET http://localhost:8080/dummy/1
+
+### save
+POST http://localhost:8080/dummy
+Content-Type: application/json
+
+{
+  "id": 0,
+  "title": "Subject",
+  "content": "content 123123 "
+}
